@@ -1,0 +1,14 @@
+{
+  "name": "ncp-archpreview-downloads",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Anonymous Hugging Face collection download statistics, with a static dashboard and daily history.",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory docs",
+    "collect": "python3 scripts/collect.py",
+    "test": "python3 -m unittest discover -s tests -v && node --test tests/*.test.mjs",
+    "check": "node --check docs/app.js && node --check docs/metrics.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#123d33">
+  <meta name="description" content="NCP ArchPreview 模型下载统计。匿名采集 Hugging Face collection 的累计下载、近 30 天下载和历史快照。">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>NCP ArchPreview · 模型下载统计</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到统计内容</a>
+  <aside class="sidebar" aria-label="站点导航">
+    <a class="brand" href="#overview"><span class="brand-icon">A</span><span>ArchSpace<small>MODEL OBSERVATORY</small></span></a>
+    <div class="workspace-label">NCP ARCHPREVIEW</div>
+    <nav>
+      <a class="nav-link active" href="#overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/></svg>统计总览</a>
+      <a class="nav-link" href="#models"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></svg>模型明细</a>
+      <a class="nav-link" href="#methodology"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></svg>统计口径</a>
+    </nav>
+    <div class="sidebar-bottom"><span class="public-label">PUBLIC DATA</span><p>来自 Hugging Face Hub</p><small>匿名采集 · 每 6 小时更新</small><a href="https://github.com/LuckySJTU/ncp-archpreview-downloads" target="_blank" rel="noopener noreferrer">查看开源仓库 <span aria-hidden="true">↗</span></a></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">Collections <span>/</span> <strong>NCP ArchPreview</strong></div><a class="source-link" href="https://huggingface.co/collections/ArchSpace-Collection/ncp-archpreview" target="_blank" rel="noopener noreferrer">Hugging Face Collection <span aria-hidden="true">↗</span></a></header>
+    <main id="main">
+      <section id="overview" aria-labelledby="page-title">
+        <div class="page-heading"><div><div class="eyebrow">RELEASE ANALYTICS</div><h1 id="page-title">模型下载统计<span class="release-badge">NCP ArchPreview</span></h1><p class="subtitle">追踪本轮发布的每一个模型。</p></div><button class="button" id="refresh" type="button" title="重新读取最近一次自动采集并发布的快照"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M5.6 7a7.5 7.5 0 0 1 12-2L20 8M4 16l2.4 3A7.5 7.5 0 0 0 18.4 17"/></svg><span>刷新快照</span></button></div>
+        <div class="update-line" role="status" aria-live="polite"><span class="status-indicator" id="status-dot"></span><span id="update-status">正在读取公开数据…</span><span class="timezone">北京时间 · UTC+8</span></div>
+        <div id="error" class="error-banner" role="alert" hidden></div>
+        <div class="summary-grid" aria-label="下载总览" aria-busy="true" id="summary">
+          <article class="stat-card primary"><div class="stat-label">累计下载量 <span>ALL TIME</span></div><div class="stat-number" id="all-time">—</div><div class="stat-foot"><span id="total-scope">Collection 内全部模型</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg></div></article>
+          <article class="stat-card"><div class="stat-label">近 30 天下载 <span>30 DAYS</span></div><div class="stat-number" id="last-month">—</div><div class="stat-foot">滚动 30 天窗口</div></article>
+          <article class="stat-card"><div class="stat-label">已收录模型</div><div class="stat-number" id="model-count">—</div><div class="stat-foot" id="coverage">等待采集结果</div></article>
+          <article class="stat-card"><div class="stat-label">模型获赞 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.8 6.4.9-4.6 4.5 1.1 6.4-5.7-3-5.7 3 1.1-6.4-4.6-4.5 6.4-.9Z"/></svg></div><div class="stat-number" id="likes">—</div><div class="stat-foot">各模型 Likes 加总</div></article>
+        </div>
+        <div class="analytics-grid">
+          <section class="panel history-panel" aria-labelledby="history-title"><div class="panel-heading"><div><h2 id="history-title">下载量趋势</h2><p>每天保留最后一次成功采集的数据</p></div><div class="segmented" aria-label="趋势指标"><button type="button" data-metric="all" aria-pressed="true">累计</button><button type="button" data-metric="month" aria-pressed="false">近 30 天</button></div></div><div class="chart-toolbar"><span class="chart-legend"><i></i><span id="chart-metric">累计下载量</span></span><label class="range-label">时间范围<select id="range" aria-label="历史时间范围"><option value="30">最近 30 天</option><option value="7">最近 7 天</option><option value="90">最近 90 天</option><option value="all">全部记录</option></select></label></div><div id="history-chart" class="history-chart" aria-live="polite"><div class="chart-loading">正在读取历史快照…</div></div><div class="chart-foot"><span id="history-note">历史记录从首次采集开始</span><a href="./data/history.json" target="_blank" rel="noopener">历史数据 <span aria-hidden="true">↗</span></a></div></section>
+          <section class="panel distribution-panel" aria-labelledby="distribution-title"><div class="panel-heading"><div><h2 id="distribution-title">阶段分布</h2><p id="distribution-caption">各阶段累计下载量占比</p></div><span class="small-badge" id="group-count">— 组</span></div><div class="donut-wrap"><div id="donut" class="donut" role="img" aria-label="正在加载阶段下载分布"><div><span id="donut-total">—</span><small id="donut-label">累计下载</small></div></div></div><div id="group-legend" class="group-legend"></div><div class="distribution-foot" id="leading-model">正在读取模型排名</div></section>
+        </div>
+      </section>
+      <section class="panel models-panel" id="models" aria-labelledby="models-title"><div class="panel-heading"><div class="models-title"><h2 id="models-title">模型明细</h2><span class="small-badge" id="table-count">—</span></div><button class="button export-button" id="export" disabled type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>导出 CSV</button></div><div class="table-controls"><div class="filters" id="filters" role="group" aria-label="按模型阶段筛选"><button type="button" data-group="all" aria-pressed="true">全部模型</button></div><div class="search-sort"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" aria-label="搜索模型" placeholder="搜索模型或 Step…" autocomplete="off"></label><select id="sort" aria-label="模型排序"><option value="downloadsAllTime">累计下载 ↓</option><option value="downloads30d">近 30 天 ↓</option><option value="likes">获赞数 ↓</option><option value="name">模型名称 ↑</option></select></div></div><div class="table-scroll"><table><caption class="sr-only">当前 collection 内模型下载统计；点击模型名称打开 Hugging Face 模型页面</caption><thead><tr><th scope="col" class="rank">#</th><th scope="col">模型</th><th scope="col">阶段</th><th scope="col" class="numeric">累计下载</th><th scope="col" class="numeric">近 30 天</th><th scope="col" class="numeric likes-column">获赞</th><th scope="col" class="share-column">累计占比</th></tr></thead><tbody id="model-rows"><tr><td colspan="7" class="empty-row">正在加载模型…</td></tr></tbody></table></div><div class="table-footer" id="table-footer">模型按仓库 ID 去重统计</div></section>
+      <section class="methodology" id="methodology" aria-labelledby="methodology-title"><div class="methodology-intro"><span class="eyebrow">ABOUT THE NUMBERS</span><h2 id="methodology-title">统计口径</h2><a href="https://huggingface.co/docs/hub/models-download-stats" target="_blank" rel="noopener noreferrer">Hugging Face 官方说明 ↗</a></div><div class="methodology-copy"><p><strong>累计与近 30 天分别统计。</strong>累计下载直接采用 Hub 的 <code>downloadsAllTime</code>；近 30 天采用 <code>downloads</code>。这两个指标不会相加，也不会把多天的滚动窗口相加。</p><p><strong>下载次数不等于下载人数。</strong>Hub 按指定查询文件的 GET / HEAD 请求计数，包含自动化请求，不代表独立用户数或完整权重下载次数。本页只读取元数据 API，不下载模型文件。</p><p><strong>范围随 collection 更新。</strong>每次重新获取全部模型并按仓库 ID 去重；同一仓库的分支不单独计数。历史从首次采集开始，不能补齐此前的每日数据。模型成员变化时，趋势线会断开，避免把新增模型的已有下载量当作自然增长。</p><p id="baseline-note"><strong>更新与可用性。</strong>每 6 小时尝试匿名采集；Hub 自身的统计更新可能延迟。任一模型采集失败时保留上次完整结果，页面会显示数据时间。</p></div></section>
+      <footer class="footer"><span>ArchSpace <span class="footer-divider">/</span> NCP ArchPreview</span><div><a href="./data/latest.json" target="_blank" rel="noopener">原始快照 JSON ↗</a><a href="https://github.com/LuckySJTU/ncp-archpreview-downloads/actions" target="_blank" rel="noopener noreferrer">采集状态 ↗</a><a href="https://github.com/LuckySJTU/ncp-archpreview-downloads" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></footer>
+    </main>
+  </div>
+  <noscript><div class="noscript">此统计页面需要 JavaScript。也可直接查看 <a href="./data/latest.json">完整数据 JSON</a>。</div></noscript>
+</body>
+</html>
