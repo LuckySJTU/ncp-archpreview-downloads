@@ -3,9 +3,11 @@
 from __future__ import annotations
 
 import argparse
+import csv
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import hashlib
+import io
 import json
 from pathlib import Path
 import re
@@ -147,10 +149,26 @@ def totals(models):
 
 
 def atomic_json(path, data):
+    atomic_text(path, json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+
+
+def atomic_text(path, text):
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
-    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.write_text(text, encoding="utf-8", newline="")
     temporary.replace(path)
+
+
+def model_csv(models):
+    fields = ("id", "group", "downloadsAllTime", "downloads30d", "likes", "createdAt", "lastModified", "observedAt", "url")
+    output = io.StringIO(newline="")
+    output.write("\ufeff")
+    writer = csv.writer(output)
+    writer.writerow(fields)
+    for model in models:
+        values = [str(model.get(field) if model.get(field) is not None else "") for field in fields]
+        writer.writerow(["'" + v if v.startswith(("=", "+", "-", "@", "\t", "\r")) else v for v in values])
+    return output.getvalue()
 
 
 def publish(snapshot, output):
@@ -175,6 +193,7 @@ def publish(snapshot, output):
         atomic_json(baseline, snapshot)
     atomic_json(output / "history" / f"{date}.json", snapshot)
     atomic_json(history_path, history)
+    atomic_text(output / "models.csv", model_csv(snapshot["models"]))
     atomic_json(output / "latest.json", snapshot)
 
 

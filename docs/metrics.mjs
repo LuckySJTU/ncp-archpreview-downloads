@@ -17,17 +17,6 @@ export function comparison(current, baseline) {
   return current.totals.downloadsAllTime - baseline.totals.downloadsAllTime;
 }
 
-export function csv(models) {
-  const fields = ['id', 'group', 'downloadsAllTime', 'downloads30d', 'likes', 'createdAt', 'lastModified', 'observedAt', 'url'];
-  const cell = value => {
-    let text = String(value ?? '');
-    // Neutralize formula cells in downloaded spreadsheets.
-    if (/^[=+@\-\t\r]/.test(text)) text = "'" + text;
-    return '"' + text.replaceAll('"', '""') + '"';
-  };
-  return '\uFEFF' + [fields, ...models.map(model => fields.map(field => model[field]))].map(row => row.map(cell).join(',')).join('\r\n') + '\r\n';
-}
-
 export function historySegments(points) {
   const segments = [];
   for (const point of points) {

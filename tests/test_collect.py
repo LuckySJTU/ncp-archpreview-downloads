@@ -1,4 +1,5 @@
 import copy
+import csv
 import io
 import json
 from pathlib import Path
@@ -9,7 +10,7 @@ from unittest.mock import patch
 import urllib.error
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from collect import collect, count, get_json, model_items, publish
+from collect import collect, count, get_json, model_items, model_csv, publish
 
 
 class CollectorTests(unittest.TestCase):
@@ -100,6 +101,15 @@ class CollectorTests(unittest.TestCase):
             for call in request.call_args_list:
                 headers = dict(call.args[0].header_items())
                 self.assertFalse(any(k.lower() in ("authorization", "cookie") for k in headers))
+
+    def test_csv_exports_metrics_and_neutralizes_formulas(self):
+        result = model_csv([{"id": '=HYPERLINK("x")', "group": 'comma,quote"', "downloads30d": 3, "downloadsAllTime": 10}])
+        self.assertTrue(result.startswith("\ufeff"))
+        rows = list(csv.DictReader(io.StringIO(result.lstrip("\ufeff"))))
+        self.assertEqual(rows[0]["id"], '\'=HYPERLINK("x")')
+        self.assertEqual(rows[0]["group"], 'comma,quote"')
+        self.assertEqual(rows[0]["downloadsAllTime"], "10")
+        self.assertEqual(rows[0]["downloads30d"], "3")
 
 
 if __name__ == "__main__":

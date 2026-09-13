@@ -8,7 +8,7 @@ NCP ArchPreview 模型下载统计，完全匿名采集，静态网页展示。
 ## 这个仓库提供什么
 
 - Collection 全部模型的累计下载量、近 30 天下载量、模型数与获赞数。
-- Stage 1、Stage 2、DFlash 分组，模型搜索、排序和筛选，CSV 导出。
+- Stage 1、Stage 2、DFlash 分组，模型搜索、排序和筛选，全部模型的 CSV 导出。
 - 每 6 小时刷新；按 UTC 日期保留每天最后一个完整快照，图表显示真实历史观测。
 - 可下载的最新 JSON、历史索引、每日逐模型快照和固定的首次观测基线。
 - 适配电脑和手机。无需构建，无外部字体、CDN、前端框架、数据库或付费服务。
@@ -74,6 +74,7 @@ docs/styles.css                     # 响应式样式
 docs/app.js                         # 页面逻辑、图表、筛选、导出
 docs/metrics.mjs                     # 可测试的统计与筛选函数
 docs/data/latest.json                # 最新完整快照
+docs/data/models.csv                 # 最新全部模型明细，UTF-8 BOM，便于 Excel 打开
 docs/data/baseline.json              # 固定首次观测
 docs/data/history.json               # 每日汇总索引
 docs/data/history/YYYY-MM-DD.json    # 每日最后一次完整逐模型快照

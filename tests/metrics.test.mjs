@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { selectModels, comparison, csv, historySegments, sum } from '../docs/metrics.mjs';
+import { selectModels, comparison, historySegments, sum } from '../docs/metrics.mjs';
 
 const models = [
   { id: 'org/Step2', group: 'Stage 1', label: 'Step 2', downloadsAllTime: 10, downloads30d: 3, likes: 0 },
@@ -30,12 +30,4 @@ test('changes in membership do not produce fabricated download growth', () => {
 test('history breaks at collection membership changes', () => {
   const points = ['a', 'a', 'b', 'a'].map(membershipHash => ({ membershipHash }));
   assert.deepEqual(historySegments(points).map(segment => segment.length), [2, 1, 1]);
-});
-
-test('CSV exports both independent metrics and escapes spreadsheet formulas', () => {
-  const output = csv([{ ...models[0], id: '=HYPERLINK("test")', group: 'comma,quote"' }]);
-  assert.ok(output.startsWith('\uFEFF'));
-  assert.ok(output.includes('"downloadsAllTime","downloads30d"'));
-  assert.ok(output.includes('"\'=HYPERLINK(""test"")"'));
-  assert.ok(output.includes('"comma,quote"""'));
 });

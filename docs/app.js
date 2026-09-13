@@ -1,4 +1,4 @@
-import { METRICS, selectModels, sum, comparison, csv, historySegments } from './metrics.mjs';
+import { METRICS, selectModels, sum, comparison, historySegments } from './metrics.mjs';
 
 const $ = id => document.getElementById(id);
 const format = new Intl.NumberFormat('en-US');
@@ -46,7 +46,6 @@ async function load() {
     renderFilters();
     renderCharts();
     renderTable();
-    $('export').disabled = false;
     $('summary').setAttribute('aria-busy', 'false');
   } catch (error) {
     $('error').textContent = state.snapshot ? `刷新失败，继续显示上次成功读取的完整快照。${error.message}` : `暂时无法读取统计数据，请稍后刷新或查看页面底部的采集状态。${error.message}`;
@@ -69,7 +68,7 @@ function renderSummary() {
   $('last-month').textContent = number(s.totals.downloads30d);
   $('model-count').textContent = number(s.models.length);
   $('likes').textContent = number(s.totals.likes);
-  $('total-scope').textContent = `${s.models.length} 个模型的公开计数加总`;
+  $('total-scope').textContent = `${s.models.length} 个模型合计 · Hub 计数`;
   $('coverage').textContent = `${s.models.length} / ${s.collection.modelCount} 个模型采集成功`;
   const stale = Date.now() - Date.parse(s.generatedAt) > 18 * 60 * 60 * 1000;
   $('update-status').textContent = `${stale ? '快照超过 18 小时未更新，请检查采集状态 · ' : '最近采集 · '}${dateFormat.format(new Date(s.generatedAt))}`;
@@ -134,7 +133,9 @@ function renderHistory() {
     $('history-note').textContent = '采集成功后自动生成趋势';
     return;
   }
-  const width = 640, height = 242, left = 62, right = 615, top = 26, bottom = 202;
+  const width = Math.max(280, $('history-chart').clientWidth - 30);
+  const height = $('history-chart').clientHeight || 242;
+  const left = 52, right = width - 15, top = 26, bottom = height - 36;
   const values = points.map(p => p.totals[metric]);
   const maximum = Math.max(1, ...values);
   const magnitude = 10 ** Math.floor(Math.log10(maximum));
@@ -155,7 +156,7 @@ function renderHistory() {
   const tickIndices = new Set([0, points.length - 1, ...Array.from({ length: Math.min(5, points.length) }, (_, i) => Math.round(i * (points.length - 1) / Math.max(1, Math.min(5, points.length) - 1)))]);
   for (const i of tickIndices) {
     const p = points[i];
-    chart += `<text x="${x(p)}" y="226" fill="#92a095" font-size="11" text-anchor="middle">${escape(p.date.slice(5).replace('-', '/'))}</text>`;
+    chart += `<text x="${x(p)}" y="${height - 12}" fill="#92a095" font-size="11" text-anchor="middle">${escape(p.date.slice(5).replace('-', '/'))}</text>`;
   }
   if (points.length === 1) {
     const p = points[0];
@@ -185,20 +186,15 @@ document.querySelector('.segmented').addEventListener('click', event => {
   renderCharts();
 });
 $('range').addEventListener('change', event => { state.range = event.target.value; if (state.snapshot) renderHistory(); });
-$('export').addEventListener('click', () => {
-  if (!state.snapshot) return;
-  const blob = new Blob([csv(filteredModels())], { type: 'text/csv;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = `ncp-archpreview-${state.group.replaceAll(' ', '-').toLowerCase()}-${state.snapshot.generatedAt.slice(0, 10)}.csv`;
-  link.hidden = true;
-  document.body.append(link);
-  link.click();
-  link.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-});
 document.querySelectorAll('.nav-link').forEach(link => link.addEventListener('click', () => {
   document.querySelectorAll('.nav-link').forEach(item => item.classList.toggle('active', item === link));
 }));
+let chartWidth = 0;
+new ResizeObserver(entries => {
+  const width = entries[0].contentRect.width;
+  if (width !== chartWidth) {
+    chartWidth = width;
+    if (state.snapshot) renderHistory();
+  }
+}).observe($('history-chart'));
 load();
