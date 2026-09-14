@@ -38,13 +38,13 @@
     },
     {
       "date": "2026-09-14",
-      "generatedAt": "2026-09-14T12:54:18Z",
+      "generatedAt": "2026-09-14T21:52:04Z",
       "membershipHash": "e6db5a2e1b9e0a895be0b0be8ce80a5c7c04a0a165bb4799cd5ca8f6e0bf421c",
       "modelCount": 18,
       "totals": {
         "downloadsAllTime": 11151,
         "downloads30d": 11117,
-        "likes": 13
+        "likes": 14
       },
       "groups": [
         {
@@ -52,7 +52,7 @@
           "modelCount": 3,
           "downloadsAllTime": 2738,
           "downloads30d": 2738,
-          "likes": 6
+          "likes": 7
         },
         {
           "name": "Stage 1",
@@ -72,5 +72,5 @@
       "snapshot": "history/2026-09-14.json"
     }
   ],
-  "updatedAt": "2026-09-14T12:54:18Z"
+  "updatedAt": "2026-09-14T21:52:04Z"
 }
