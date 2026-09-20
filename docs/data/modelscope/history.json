@@ -3,18 +3,18 @@
   "points": [
     {
       "date": "2026-09-20",
-      "generatedAt": "2026-09-20T12:40:07Z",
-      "membershipHash": "1fd8d064b33ae77d42f953686b928a6bfec88193d6d5603763a1b34fc9f5f89d",
-      "modelCount": 7,
+      "generatedAt": "2026-09-20T16:11:16Z",
+      "membershipHash": "bb2e08aabbe12bb4993af643d433ab21757b3db17ef10358f631018e0039e623",
+      "modelCount": 18,
       "totals": {
-        "platformDownloads": 83,
+        "platformDownloads": 256,
         "likes": 0
       },
       "groups": [
         {
           "name": "Stage 1",
-          "modelCount": 3,
-          "platformDownloads": 27,
+          "modelCount": 14,
+          "platformDownloads": 200,
           "likes": 0
         },
         {
@@ -33,5 +33,5 @@
       "snapshot": "history/2026-09-20.json"
     }
   ],
-  "updatedAt": "2026-09-20T12:40:07Z"
+  "updatedAt": "2026-09-20T16:11:16Z"
 }
