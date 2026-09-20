@@ -1,5 +1,27 @@
 {
   "collection": "ArchSpace-Collection/ncp-archpreview-6a92edc3464a2eaa85e963a3",
+  "modelscopeCollection": "Shanghai_AI_Laboratory/NCP_ArchPreview",
   "repository": "https://github.com/LuckySJTU/ncp-archpreview-downloads",
-  "refreshHours": 6
+  "refreshHours": 6,
+  "modelscopeNamespace": "Shanghai_AI_Laboratory",
+  "modelscopeModelNames": [
+    "NCP_ArchPreview_dolma3_8.9B_Stage2_v1",
+    "NCP_ArchPreview_dolma3_8.9B_Stage2_v2",
+    "NCP_ArchPreview_dolma3_8.9B_Stage2_v3",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1",
+    "NCP_ArchPreview_dolma3_8.9B_Stage2_DFlash2_NCPFlash",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step100000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step200000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step300000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step400000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step500000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step600000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step700000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step800000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step900000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step1000000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step1100000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step1200000",
+    "NCP_ArchPreview_dolma3_8.9B_Stage1_Step1300000"
+  ]
 }

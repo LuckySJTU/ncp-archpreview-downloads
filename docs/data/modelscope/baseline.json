@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "startedAt": "2026-09-20T12:23:38Z",
+  "generatedAt": "2026-09-20T12:23:39Z",
+  "authentication": "anonymous",
+  "complete": true,
+  "provider": "modelscope",
+  "collection": {
+    "slug": "Shanghai_AI_Laboratory/NCP_ArchPreview",
+    "title": "NCP_ArchPreview",
+    "url": "https://www.modelscope.cn/collections/Shanghai_AI_Laboratory/NCP_ArchPreview",
+    "lastUpdated": "2026-09-20T11:04:10Z",
+    "modelCount": 3,
+    "membershipHash": "6772d79993671e3a6a4661432936fde7c7ff6c6b7a21a8f8ff5d412ce1e9c6af"
+  },
+  "totals": {
+    "platformDownloads": 46,
+    "likes": 0
+  },
+  "groups": [
+    {
+      "name": "Stage 2",
+      "modelCount": 2,
+      "platformDownloads": 28,
+      "likes": 0
+    },
+    {
+      "name": "Stage 1",
+      "modelCount": 1,
+      "platformDownloads": 18,
+      "likes": 0
+    }
+  ],
+  "models": [
+    {
+      "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v2",
+      "url": "https://www.modelscope.cn/models/Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v2",
+      "label": "Stage 2 · v2",
+      "group": "Stage 2",
+      "step": null,
+      "platformDownloads": 14,
+      "likes": 0,
+      "createdAt": "2026-09-20T11:57:18Z",
+      "lastModified": "2026-09-20T12:08:36Z",
+      "observedAt": "2026-09-20T12:23:39Z"
+    },
+    {
+      "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v1",
+      "url": "https://www.modelscope.cn/models/Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v1",
+      "label": "Stage 2 · v1",
+      "group": "Stage 2",
+      "step": null,
+      "platformDownloads": 14,
+      "likes": 0,
+      "createdAt": "2026-09-20T11:45:48Z",
+      "lastModified": "2026-09-20T12:05:45Z",
+      "observedAt": "2026-09-20T12:23:39Z"
+    },
+    {
+      "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1",
+      "url": "https://www.modelscope.cn/models/Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1",
+      "label": "Stage 1 · Final",
+      "group": "Stage 1",
+      "step": null,
+      "platformDownloads": 18,
+      "likes": 0,
+      "createdAt": "2026-09-20T11:21:24Z",
+      "lastModified": "2026-09-20T12:05:06Z",
+      "observedAt": "2026-09-20T12:23:39Z"
+    }
+  ],
+  "methodology": {
+    "platformDownloads": "ModelScope model metadata Downloads, as reported; the public API does not specify its time window or counting rules.",
+    "likes": "ModelScope model metadata Stars.",
+    "scope": "Current model repository IDs in this collection, discovered on every run. Papers and other item types are excluded.",
+    "history": "Daily observed platform counts from the first successful collection. Differences are counter changes, not verified daily downloads. No backfill.",
+    "sources": [
+      "https://www.modelscope.cn/api/v1/collections/info?Fid=Shanghai_AI_Laboratory%2FNCP_ArchPreview",
+      "https://github.com/modelscope/modelscope_hub"
+    ]
+  }
+}

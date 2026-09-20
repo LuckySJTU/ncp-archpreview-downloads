@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "points": [
+    {
+      "date": "2026-09-20",
+      "generatedAt": "2026-09-20T12:35:24Z",
+      "membershipHash": "a2ad1013cb9a6926911e07a0caf3082ba069d81a1595e8f0ae085bd13d50ff85",
+      "modelCount": 6,
+      "totals": {
+        "platformDownloads": 66,
+        "likes": 0
+      },
+      "groups": [
+        {
+          "name": "Stage 1",
+          "modelCount": 2,
+          "platformDownloads": 18,
+          "likes": 0
+        },
+        {
+          "name": "DFlash",
+          "modelCount": 1,
+          "platformDownloads": 14,
+          "likes": 0
+        },
+        {
+          "name": "Stage 2",
+          "modelCount": 3,
+          "platformDownloads": 34,
+          "likes": 0
+        }
+      ],
+      "snapshot": "history/2026-09-20.json"
+    }
+  ],
+  "updatedAt": "2026-09-20T12:35:24Z"
+}
