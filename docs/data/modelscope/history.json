@@ -3,35 +3,35 @@
   "points": [
     {
       "date": "2026-09-20",
-      "generatedAt": "2026-09-20T16:11:16Z",
+      "generatedAt": "2026-09-20T20:52:15Z",
       "membershipHash": "bb2e08aabbe12bb4993af643d433ab21757b3db17ef10358f631018e0039e623",
       "modelCount": 18,
       "totals": {
-        "platformDownloads": 256,
+        "platformDownloads": 274,
         "likes": 0
       },
       "groups": [
         {
           "name": "Stage 1",
           "modelCount": 14,
-          "platformDownloads": 200,
+          "platformDownloads": 214,
           "likes": 0
         },
         {
           "name": "DFlash",
           "modelCount": 1,
-          "platformDownloads": 14,
+          "platformDownloads": 15,
           "likes": 0
         },
         {
           "name": "Stage 2",
           "modelCount": 3,
-          "platformDownloads": 42,
+          "platformDownloads": 45,
           "likes": 0
         }
       ],
       "snapshot": "history/2026-09-20.json"
     }
   ],
-  "updatedAt": "2026-09-20T16:11:16Z"
+  "updatedAt": "2026-09-20T20:52:15Z"
 }

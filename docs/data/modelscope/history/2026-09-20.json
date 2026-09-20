@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-09-20T16:11:00Z",
-  "generatedAt": "2026-09-20T16:11:16Z",
+  "startedAt": "2026-09-20T20:52:03Z",
+  "generatedAt": "2026-09-20T20:52:15Z",
   "authentication": "anonymous",
   "complete": true,
   "provider": "modelscope",
@@ -16,26 +16,26 @@
     "pendingCount": 0
   },
   "totals": {
-    "platformDownloads": 256,
+    "platformDownloads": 274,
     "likes": 0
   },
   "groups": [
     {
       "name": "Stage 1",
       "modelCount": 14,
-      "platformDownloads": 200,
+      "platformDownloads": 214,
       "likes": 0
     },
     {
       "name": "DFlash",
       "modelCount": 1,
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0
     },
     {
       "name": "Stage 2",
       "modelCount": 3,
-      "platformDownloads": 42,
+      "platformDownloads": 45,
       "likes": 0
     }
   ],
@@ -47,11 +47,11 @@
       "group": "Stage 1",
       "step": null,
       "status": "available",
-      "platformDownloads": 18,
+      "platformDownloads": 19,
       "likes": 0,
       "createdAt": "2026-09-20T11:21:24Z",
       "lastModified": "2026-09-20T12:05:06Z",
-      "observedAt": "2026-09-20T16:11:05Z"
+      "observedAt": "2026-09-20T20:52:07Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step100000",
@@ -60,11 +60,11 @@
       "group": "Stage 1",
       "step": 100000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T12:27:18Z",
       "lastModified": "2026-09-20T12:38:12Z",
-      "observedAt": "2026-09-20T16:11:06Z"
+      "observedAt": "2026-09-20T20:52:07Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1000000",
@@ -73,11 +73,11 @@
       "group": "Stage 1",
       "step": 1000000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T14:20:46Z",
       "lastModified": "2026-09-20T15:56:02Z",
-      "observedAt": "2026-09-20T16:11:08Z"
+      "observedAt": "2026-09-20T20:52:07Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1100000",
@@ -86,11 +86,11 @@
       "group": "Stage 1",
       "step": 1100000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T14:31:35Z",
       "lastModified": "2026-09-20T15:55:04Z",
-      "observedAt": "2026-09-20T16:11:07Z"
+      "observedAt": "2026-09-20T20:52:08Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1200000",
@@ -99,11 +99,11 @@
       "group": "Stage 1",
       "step": 1200000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T14:42:29Z",
       "lastModified": "2026-09-20T15:56:15Z",
-      "observedAt": "2026-09-20T16:11:08Z"
+      "observedAt": "2026-09-20T20:52:08Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1300000",
@@ -112,11 +112,11 @@
       "group": "Stage 1",
       "step": 1300000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T14:53:22Z",
       "lastModified": "2026-09-20T15:55:19Z",
-      "observedAt": "2026-09-20T16:11:08Z"
+      "observedAt": "2026-09-20T20:52:08Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step200000",
@@ -125,11 +125,11 @@
       "group": "Stage 1",
       "step": 200000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T12:38:09Z",
       "lastModified": "2026-09-20T12:51:49Z",
-      "observedAt": "2026-09-20T16:11:09Z"
+      "observedAt": "2026-09-20T20:52:09Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step300000",
@@ -138,11 +138,11 @@
       "group": "Stage 1",
       "step": 300000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T12:49:02Z",
       "lastModified": "2026-09-20T15:53:49Z",
-      "observedAt": "2026-09-20T16:11:10Z"
+      "observedAt": "2026-09-20T20:52:10Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step400000",
@@ -151,11 +151,11 @@
       "group": "Stage 1",
       "step": 400000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T13:00:18Z",
       "lastModified": "2026-09-20T15:54:14Z",
-      "observedAt": "2026-09-20T16:11:10Z"
+      "observedAt": "2026-09-20T20:52:10Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step500000",
@@ -164,11 +164,11 @@
       "group": "Stage 1",
       "step": 500000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T13:17:37Z",
       "lastModified": "2026-09-20T15:56:27Z",
-      "observedAt": "2026-09-20T16:11:11Z"
+      "observedAt": "2026-09-20T20:52:11Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step600000",
@@ -177,11 +177,11 @@
       "group": "Stage 1",
       "step": 600000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T13:37:15Z",
       "lastModified": "2026-09-20T15:55:36Z",
-      "observedAt": "2026-09-20T16:11:11Z"
+      "observedAt": "2026-09-20T20:52:11Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step700000",
@@ -190,11 +190,11 @@
       "group": "Stage 1",
       "step": 700000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T13:48:07Z",
       "lastModified": "2026-09-20T15:54:28Z",
-      "observedAt": "2026-09-20T16:11:12Z"
+      "observedAt": "2026-09-20T20:52:12Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step800000",
@@ -203,11 +203,11 @@
       "group": "Stage 1",
       "step": 800000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T13:59:00Z",
       "lastModified": "2026-09-20T15:55:49Z",
-      "observedAt": "2026-09-20T16:11:13Z"
+      "observedAt": "2026-09-20T20:52:12Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step900000",
@@ -216,11 +216,11 @@
       "group": "Stage 1",
       "step": 900000,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T14:09:50Z",
       "lastModified": "2026-09-20T15:54:45Z",
-      "observedAt": "2026-09-20T16:11:14Z"
+      "observedAt": "2026-09-20T20:52:13Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_DFlash2_NCPFlash",
@@ -229,11 +229,11 @@
       "group": "DFlash",
       "step": null,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T12:25:07Z",
       "lastModified": "2026-09-20T12:34:32Z",
-      "observedAt": "2026-09-20T16:11:14Z"
+      "observedAt": "2026-09-20T20:52:14Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v1",
@@ -242,11 +242,11 @@
       "group": "Stage 2",
       "step": null,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T11:45:48Z",
       "lastModified": "2026-09-20T12:05:45Z",
-      "observedAt": "2026-09-20T16:11:14Z"
+      "observedAt": "2026-09-20T20:52:13Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v2",
@@ -255,11 +255,11 @@
       "group": "Stage 2",
       "step": null,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T11:57:18Z",
       "lastModified": "2026-09-20T12:08:36Z",
-      "observedAt": "2026-09-20T16:11:15Z"
+      "observedAt": "2026-09-20T20:52:15Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v3",
@@ -268,11 +268,11 @@
       "group": "Stage 2",
       "step": null,
       "status": "available",
-      "platformDownloads": 14,
+      "platformDownloads": 15,
       "likes": 0,
       "createdAt": "2026-09-20T12:08:23Z",
       "lastModified": "2026-09-20T12:35:22Z",
-      "observedAt": "2026-09-20T16:11:16Z"
+      "observedAt": "2026-09-20T20:52:15Z"
     }
   ],
   "pendingModels": [],
