@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-09-23T17:06:39Z",
-  "generatedAt": "2026-09-23T17:06:51Z",
+  "startedAt": "2026-09-23T21:32:36Z",
+  "generatedAt": "2026-09-23T21:32:48Z",
   "authentication": "anonymous",
   "complete": true,
   "provider": "modelscope",
@@ -51,7 +51,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T11:21:24Z",
       "lastModified": "2026-09-20T12:05:06Z",
-      "observedAt": "2026-09-23T17:06:43Z"
+      "observedAt": "2026-09-23T21:32:40Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step100000",
@@ -64,7 +64,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T12:27:18Z",
       "lastModified": "2026-09-20T12:38:12Z",
-      "observedAt": "2026-09-23T17:06:43Z"
+      "observedAt": "2026-09-23T21:32:40Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1000000",
@@ -77,7 +77,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T14:20:46Z",
       "lastModified": "2026-09-20T15:56:02Z",
-      "observedAt": "2026-09-23T17:06:44Z"
+      "observedAt": "2026-09-23T21:32:40Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1100000",
@@ -90,7 +90,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T14:31:35Z",
       "lastModified": "2026-09-20T15:55:04Z",
-      "observedAt": "2026-09-23T17:06:45Z"
+      "observedAt": "2026-09-23T21:32:42Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1200000",
@@ -103,7 +103,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T14:42:29Z",
       "lastModified": "2026-09-20T15:56:15Z",
-      "observedAt": "2026-09-23T17:06:45Z"
+      "observedAt": "2026-09-23T21:32:41Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1300000",
@@ -116,7 +116,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T14:53:22Z",
       "lastModified": "2026-09-20T15:55:19Z",
-      "observedAt": "2026-09-23T17:06:45Z"
+      "observedAt": "2026-09-23T21:32:43Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step200000",
@@ -129,7 +129,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T12:38:09Z",
       "lastModified": "2026-09-20T12:51:49Z",
-      "observedAt": "2026-09-23T17:06:46Z"
+      "observedAt": "2026-09-23T21:32:43Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step300000",
@@ -142,7 +142,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T12:49:02Z",
       "lastModified": "2026-09-20T15:53:49Z",
-      "observedAt": "2026-09-23T17:06:46Z"
+      "observedAt": "2026-09-23T21:32:43Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step400000",
@@ -155,7 +155,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T13:00:18Z",
       "lastModified": "2026-09-20T15:54:14Z",
-      "observedAt": "2026-09-23T17:06:46Z"
+      "observedAt": "2026-09-23T21:32:44Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step500000",
@@ -168,7 +168,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T13:17:37Z",
       "lastModified": "2026-09-20T15:56:27Z",
-      "observedAt": "2026-09-23T17:06:47Z"
+      "observedAt": "2026-09-23T21:32:45Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step600000",
@@ -181,7 +181,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T13:37:15Z",
       "lastModified": "2026-09-20T15:55:36Z",
-      "observedAt": "2026-09-23T17:06:47Z"
+      "observedAt": "2026-09-23T21:32:44Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step700000",
@@ -194,7 +194,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T13:48:07Z",
       "lastModified": "2026-09-20T15:54:28Z",
-      "observedAt": "2026-09-23T17:06:47Z"
+      "observedAt": "2026-09-23T21:32:46Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step800000",
@@ -207,7 +207,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T13:59:00Z",
       "lastModified": "2026-09-20T15:55:49Z",
-      "observedAt": "2026-09-23T17:06:48Z"
+      "observedAt": "2026-09-23T21:32:46Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage1_Step900000",
@@ -220,7 +220,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T14:09:50Z",
       "lastModified": "2026-09-20T15:54:45Z",
-      "observedAt": "2026-09-23T17:06:48Z"
+      "observedAt": "2026-09-23T21:32:46Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_DFlash2_NCPFlash",
@@ -233,7 +233,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T12:25:07Z",
       "lastModified": "2026-09-20T12:34:32Z",
-      "observedAt": "2026-09-23T17:06:50Z"
+      "observedAt": "2026-09-23T21:32:47Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v1",
@@ -246,7 +246,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T11:45:48Z",
       "lastModified": "2026-09-20T12:05:45Z",
-      "observedAt": "2026-09-23T17:06:50Z"
+      "observedAt": "2026-09-23T21:32:47Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v2",
@@ -259,7 +259,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T11:57:18Z",
       "lastModified": "2026-09-20T12:08:36Z",
-      "observedAt": "2026-09-23T17:06:49Z"
+      "observedAt": "2026-09-23T21:32:48Z"
     },
     {
       "id": "Shanghai_AI_Laboratory/NCP_ArchPreview_dolma3_8.9B_Stage2_v3",
@@ -272,7 +272,7 @@
       "likes": 0,
       "createdAt": "2026-09-20T12:08:23Z",
       "lastModified": "2026-09-20T12:35:22Z",
-      "observedAt": "2026-09-23T17:06:51Z"
+      "observedAt": "2026-09-23T21:32:48Z"
     }
   ],
   "pendingModels": [],
