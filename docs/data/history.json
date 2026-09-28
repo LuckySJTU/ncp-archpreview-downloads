@@ -525,7 +525,42 @@
         }
       ],
       "snapshot": "history/2026-09-27.json"
+    },
+    {
+      "date": "2026-09-28",
+      "generatedAt": "2026-09-28T05:28:55Z",
+      "membershipHash": "e6db5a2e1b9e0a895be0b0be8ce80a5c7c04a0a165bb4799cd5ca8f6e0bf421c",
+      "modelCount": 18,
+      "totals": {
+        "downloadsAllTime": 12650,
+        "downloads30d": 11764,
+        "likes": 21
+      },
+      "groups": [
+        {
+          "name": "Stage 2",
+          "modelCount": 3,
+          "downloadsAllTime": 3132,
+          "downloads30d": 2500,
+          "likes": 11
+        },
+        {
+          "name": "Stage 1",
+          "modelCount": 14,
+          "downloadsAllTime": 8741,
+          "downloads30d": 8487,
+          "likes": 10
+        },
+        {
+          "name": "DFlash",
+          "modelCount": 1,
+          "downloadsAllTime": 777,
+          "downloads30d": 777,
+          "likes": 0
+        }
+      ],
+      "snapshot": "history/2026-09-28.json"
     }
   ],
-  "updatedAt": "2026-09-27T21:23:42Z"
+  "updatedAt": "2026-09-28T05:28:55Z"
 }
