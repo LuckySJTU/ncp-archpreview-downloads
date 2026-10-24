@@ -1438,39 +1438,39 @@
     },
     {
       "date": "2026-10-24",
-      "generatedAt": "2026-10-24T04:41:48Z",
+      "generatedAt": "2026-10-24T11:07:08Z",
       "membershipHash": "e6db5a2e1b9e0a895be0b0be8ce80a5c7c04a0a165bb4799cd5ca8f6e0bf421c",
       "modelCount": 18,
       "totals": {
-        "downloadsAllTime": 14405,
-        "downloads30d": 2100,
+        "downloadsAllTime": 14437,
+        "downloads30d": 1992,
         "likes": 21
       },
       "groups": [
         {
           "name": "Stage 2",
           "modelCount": 3,
-          "downloadsAllTime": 3580,
-          "downloads30d": 528,
+          "downloadsAllTime": 3587,
+          "downloads30d": 497,
           "likes": 11
         },
         {
           "name": "Stage 1",
           "modelCount": 14,
-          "downloadsAllTime": 9932,
-          "downloads30d": 1433,
+          "downloadsAllTime": 9956,
+          "downloads30d": 1368,
           "likes": 10
         },
         {
           "name": "DFlash",
           "modelCount": 1,
-          "downloadsAllTime": 893,
-          "downloads30d": 139,
+          "downloadsAllTime": 894,
+          "downloads30d": 127,
           "likes": 0
         }
       ],
       "snapshot": "history/2026-10-24.json"
     }
   ],
-  "updatedAt": "2026-10-24T04:41:48Z"
+  "updatedAt": "2026-10-24T11:07:08Z"
 }
