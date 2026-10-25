@@ -1,6 +1,6 @@
 {
   "provider": "modelscope",
-  "attemptedAt": "2026-10-25T16:27:35Z",
-  "ok": false,
-  "error": "HTTPError: HTTP Error 403: Forbidden"
+  "attemptedAt": "2026-10-25T20:54:17Z",
+  "ok": true,
+  "generatedAt": "2026-10-25T20:54:50Z"
 }
