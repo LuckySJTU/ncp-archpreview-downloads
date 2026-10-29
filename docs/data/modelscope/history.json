@@ -1212,19 +1212,19 @@
     },
     {
       "date": "2026-10-29",
-      "generatedAt": "2026-10-29T05:53:10Z",
+      "generatedAt": "2026-10-29T13:08:53Z",
       "membershipHash": "bb2e08aabbe12bb4993af643d433ab21757b3db17ef10358f631018e0039e623",
       "modelCount": 18,
       "totals": {
         "platformDownloads": 454,
-        "likes": 7
+        "likes": 8
       },
       "groups": [
         {
           "name": "Stage 1",
           "modelCount": 14,
           "platformDownloads": 394,
-          "likes": 3
+          "likes": 4
         },
         {
           "name": "DFlash",
@@ -1242,5 +1242,5 @@
       "snapshot": "history/2026-10-29.json"
     }
   ],
-  "updatedAt": "2026-10-29T05:53:10Z"
+  "updatedAt": "2026-10-29T13:08:53Z"
 }
