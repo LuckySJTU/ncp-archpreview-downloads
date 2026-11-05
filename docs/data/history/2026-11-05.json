@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "startedAt": "2026-11-05T06:53:48Z",
-  "generatedAt": "2026-11-05T06:53:48Z",
+  "startedAt": "2026-11-05T19:59:52Z",
+  "generatedAt": "2026-11-05T19:59:52Z",
   "authentication": "anonymous",
   "complete": true,
   "provider": "huggingface",
@@ -14,30 +14,30 @@
     "membershipHash": "e6db5a2e1b9e0a895be0b0be8ce80a5c7c04a0a165bb4799cd5ca8f6e0bf421c"
   },
   "totals": {
-    "downloadsAllTime": 14711,
-    "downloads30d": 1148,
+    "downloadsAllTime": 14738,
+    "downloads30d": 1070,
     "likes": 21
   },
   "groups": [
     {
       "name": "Stage 2",
       "modelCount": 3,
-      "downloadsAllTime": 3671,
-      "downloads30d": 318,
+      "downloadsAllTime": 3683,
+      "downloads30d": 314,
       "likes": 11
     },
     {
       "name": "Stage 1",
       "modelCount": 14,
-      "downloadsAllTime": 10116,
-      "downloads30d": 731,
+      "downloadsAllTime": 10130,
+      "downloads30d": 663,
       "likes": 10
     },
     {
       "name": "DFlash",
       "modelCount": 1,
-      "downloadsAllTime": 924,
-      "downloads30d": 99,
+      "downloadsAllTime": 925,
+      "downloads30d": 93,
       "likes": 0
     }
   ],
@@ -48,12 +48,12 @@
       "label": "Stage 2 · v1",
       "group": "Stage 2",
       "step": null,
-      "downloadsAllTime": 1288,
-      "downloads30d": 135,
+      "downloadsAllTime": 1292,
+      "downloads30d": 134,
       "likes": 4,
       "createdAt": "2026-08-27T12:51:50.000Z",
       "lastModified": "2026-09-11T03:18:22.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage2_v2",
@@ -61,12 +61,12 @@
       "label": "Stage 2 · v2",
       "group": "Stage 2",
       "step": null,
-      "downloadsAllTime": 1089,
-      "downloads30d": 56,
+      "downloadsAllTime": 1092,
+      "downloads30d": 53,
       "likes": 1,
       "createdAt": "2026-08-27T13:02:40.000Z",
       "lastModified": "2026-09-11T03:18:26.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage2_v3",
@@ -74,12 +74,12 @@
       "label": "Stage 2 · v3",
       "group": "Stage 2",
       "step": null,
-      "downloadsAllTime": 1294,
+      "downloadsAllTime": 1299,
       "downloads30d": 127,
       "likes": 6,
       "createdAt": "2026-08-27T13:13:58.000Z",
       "lastModified": "2026-09-11T03:18:30.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1",
@@ -87,12 +87,12 @@
       "label": "Stage 1 · Final",
       "group": "Stage 1",
       "step": null,
-      "downloadsAllTime": 1702,
-      "downloads30d": 242,
+      "downloadsAllTime": 1708,
+      "downloads30d": 235,
       "likes": 9,
       "createdAt": "2026-08-27T12:49:10.000Z",
       "lastModified": "2026-09-11T03:17:29.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage2_DFlash2_NCPFlash",
@@ -100,12 +100,12 @@
       "label": "DFlash2 · NCPFlash",
       "group": "DFlash",
       "step": null,
-      "downloadsAllTime": 924,
-      "downloads30d": 99,
+      "downloadsAllTime": 925,
+      "downloads30d": 93,
       "likes": 0,
       "createdAt": "2026-08-29T17:12:44.000Z",
       "lastModified": "2026-09-11T03:18:33.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step100000",
@@ -113,12 +113,12 @@
       "label": "Stage 1 · Step 100,000",
       "group": "Stage 1",
       "step": 100000,
-      "downloadsAllTime": 606,
-      "downloads30d": 34,
+      "downloadsAllTime": 607,
+      "downloads30d": 29,
       "likes": 0,
       "createdAt": "2026-09-09T06:13:07.000Z",
       "lastModified": "2026-09-11T03:18:38.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step200000",
@@ -126,12 +126,12 @@
       "label": "Stage 1 · Step 200,000",
       "group": "Stage 1",
       "step": 200000,
-      "downloadsAllTime": 598,
-      "downloads30d": 36,
+      "downloadsAllTime": 599,
+      "downloads30d": 32,
       "likes": 0,
       "createdAt": "2026-09-09T06:22:47.000Z",
       "lastModified": "2026-09-11T03:18:43.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step300000",
@@ -140,11 +140,11 @@
       "group": "Stage 1",
       "step": 300000,
       "downloadsAllTime": 604,
-      "downloads30d": 31,
+      "downloads30d": 26,
       "likes": 0,
       "createdAt": "2026-09-09T06:25:06.000Z",
       "lastModified": "2026-09-11T03:18:47.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step400000",
@@ -153,11 +153,11 @@
       "group": "Stage 1",
       "step": 400000,
       "downloadsAllTime": 602,
-      "downloads30d": 33,
+      "downloads30d": 28,
       "likes": 0,
       "createdAt": "2026-09-09T06:26:55.000Z",
       "lastModified": "2026-09-11T03:18:51.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step500000",
@@ -165,12 +165,12 @@
       "label": "Stage 1 · Step 500,000",
       "group": "Stage 1",
       "step": 500000,
-      "downloadsAllTime": 616,
-      "downloads30d": 37,
+      "downloadsAllTime": 617,
+      "downloads30d": 33,
       "likes": 0,
       "createdAt": "2026-09-09T06:28:30.000Z",
       "lastModified": "2026-09-11T03:18:54.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step600000",
@@ -179,11 +179,11 @@
       "group": "Stage 1",
       "step": 600000,
       "downloadsAllTime": 616,
-      "downloads30d": 34,
+      "downloads30d": 29,
       "likes": 0,
       "createdAt": "2026-09-09T06:30:09.000Z",
       "lastModified": "2026-09-11T03:18:59.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step700000",
@@ -191,12 +191,12 @@
       "label": "Stage 1 · Step 700,000",
       "group": "Stage 1",
       "step": 700000,
-      "downloadsAllTime": 625,
-      "downloads30d": 34,
+      "downloadsAllTime": 626,
+      "downloads30d": 29,
       "likes": 0,
       "createdAt": "2026-09-09T06:31:34.000Z",
       "lastModified": "2026-09-11T03:19:03.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step800000",
@@ -205,11 +205,11 @@
       "group": "Stage 1",
       "step": 800000,
       "downloadsAllTime": 631,
-      "downloads30d": 34,
+      "downloads30d": 29,
       "likes": 0,
       "createdAt": "2026-09-09T06:33:24.000Z",
       "lastModified": "2026-09-11T03:19:07.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step900000",
@@ -218,11 +218,11 @@
       "group": "Stage 1",
       "step": 900000,
       "downloadsAllTime": 636,
-      "downloads30d": 30,
+      "downloads30d": 25,
       "likes": 0,
       "createdAt": "2026-09-09T06:35:05.000Z",
       "lastModified": "2026-09-11T03:19:11.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1000000",
@@ -230,12 +230,12 @@
       "label": "Stage 1 · Step 1,000,000",
       "group": "Stage 1",
       "step": 1000000,
-      "downloadsAllTime": 648,
-      "downloads30d": 38,
+      "downloadsAllTime": 650,
+      "downloads30d": 35,
       "likes": 0,
       "createdAt": "2026-09-09T06:37:21.000Z",
       "lastModified": "2026-09-11T03:19:15.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1100000",
@@ -243,12 +243,12 @@
       "label": "Stage 1 · Step 1,100,000",
       "group": "Stage 1",
       "step": 1100000,
-      "downloadsAllTime": 682,
-      "downloads30d": 47,
+      "downloadsAllTime": 683,
+      "downloads30d": 42,
       "likes": 0,
       "createdAt": "2026-09-09T06:38:50.000Z",
       "lastModified": "2026-09-11T03:19:19.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1200000",
@@ -257,11 +257,11 @@
       "group": "Stage 1",
       "step": 1200000,
       "downloadsAllTime": 664,
-      "downloads30d": 33,
+      "downloads30d": 27,
       "likes": 0,
       "createdAt": "2026-09-09T06:40:50.000Z",
       "lastModified": "2026-09-11T03:19:23.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     },
     {
       "id": "ArchSpace-Collection/NCP_ArchPreview_dolma3_8.9B_Stage1_Step1300000",
@@ -269,12 +269,12 @@
       "label": "Stage 1 · Step 1,300,000",
       "group": "Stage 1",
       "step": 1300000,
-      "downloadsAllTime": 886,
-      "downloads30d": 68,
+      "downloadsAllTime": 887,
+      "downloads30d": 64,
       "likes": 1,
       "createdAt": "2026-09-09T06:42:23.000Z",
       "lastModified": "2026-09-11T03:19:27.000Z",
-      "observedAt": "2026-11-05T06:53:48Z"
+      "observedAt": "2026-11-05T19:59:52Z"
     }
   ],
   "methodology": {
