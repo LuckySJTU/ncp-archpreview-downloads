@@ -1708,35 +1708,35 @@
     },
     {
       "date": "2026-11-14",
-      "generatedAt": "2026-11-14T18:10:01Z",
+      "generatedAt": "2026-11-14T22:29:24Z",
       "membershipHash": "bb2e08aabbe12bb4993af643d433ab21757b3db17ef10358f631018e0039e623",
       "modelCount": 18,
       "totals": {
-        "platformDownloads": 509,
+        "platformDownloads": 527,
         "likes": 8
       },
       "groups": [
         {
           "name": "Stage 1",
           "modelCount": 14,
-          "platformDownloads": 437,
+          "platformDownloads": 451,
           "likes": 4
         },
         {
           "name": "DFlash",
           "modelCount": 1,
-          "platformDownloads": 18,
+          "platformDownloads": 19,
           "likes": 1
         },
         {
           "name": "Stage 2",
           "modelCount": 3,
-          "platformDownloads": 54,
+          "platformDownloads": 57,
           "likes": 3
         }
       ],
       "snapshot": "history/2026-11-14.json"
     }
   ],
-  "updatedAt": "2026-11-14T18:10:01Z"
+  "updatedAt": "2026-11-14T22:29:24Z"
 }
