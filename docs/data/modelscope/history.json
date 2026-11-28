@@ -2139,7 +2139,38 @@
         }
       ],
       "snapshot": "history/2026-11-27.json"
+    },
+    {
+      "date": "2026-11-28",
+      "generatedAt": "2026-11-28T07:55:18Z",
+      "membershipHash": "bb2e08aabbe12bb4993af643d433ab21757b3db17ef10358f631018e0039e623",
+      "modelCount": 18,
+      "totals": {
+        "platformDownloads": 765,
+        "likes": 8
+      },
+      "groups": [
+        {
+          "name": "Stage 1",
+          "modelCount": 14,
+          "platformDownloads": 635,
+          "likes": 4
+        },
+        {
+          "name": "DFlash",
+          "modelCount": 1,
+          "platformDownloads": 33,
+          "likes": 1
+        },
+        {
+          "name": "Stage 2",
+          "modelCount": 3,
+          "platformDownloads": 97,
+          "likes": 3
+        }
+      ],
+      "snapshot": "history/2026-11-28.json"
     }
   ],
-  "updatedAt": "2026-11-27T21:22:10Z"
+  "updatedAt": "2026-11-28T07:55:18Z"
 }
